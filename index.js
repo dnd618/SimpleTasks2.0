@@ -6,14 +6,14 @@ $body.append($elem);
 function createButton(data) {
 
   var button = $('<div id="my-button">button</div>')
-    .css({
+    // .css({
 
-     }).append($('<a>').attr({
-       'target' : '_blank',
-       'rel' : 'nofollow'
-     }).append($('<image src="css/images/Facebook-icon.png">').css({
+    //  }).append($('<a>').attr({
+    //    'target' : '_blank',
+    //    'rel' : 'nofollow'
+    //  }).append($('<image src="css/images/Facebook-icon.png">').css({
 
-     })));
+    //  })));
 
 //2
 
@@ -55,8 +55,6 @@ function appendRow()
 }
 
 //Six
-var homie = ['Bria', 'William', 'Andre', 'Kim', 'Cocheta', 'Daisy', 'Kennedy', 'Sydney', 'Liam', 'Shari'];
-
 $(document).ready(function() {
     var array = ['Bria', '<br>', 'William','<br>', 'Andre','<br>', 'Kim','<br>', 'Cocheta','<br>', 'Daisy','<br>', 'Kennedy','<br>', 'Sydney','<br>', 'Liam','<br>', 'Shari'];
 
