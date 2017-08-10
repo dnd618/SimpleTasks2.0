@@ -1,0 +1,59 @@
+#container {
+    width: 15em;
+    height: 15em;
+    background-color: teal;
+    padding-bottom: 1em;
+    margin-bottom: 10px;
+}
+
+/* div {
+    width: 15em;
+    height: 15em;
+    background-color: teal;
+    padding-bottom: 1em;
+    margin-bottom: 10px;
+} */
+
+#mybutton {
+    background:white;
+    height: 200px;
+    width: 200px;
+}
+
+#text {
+    width: 15em;
+    height: 15em;
+    background-color: teal;
+    padding-bottom: 1em;
+    margin-bottom: 10px;
+}
+
+#name {
+    width: 15em;
+    height: 15em;
+    background-color: teal;
+    padding-bottom: 1em;
+    margin-bottom: 10px;
+    overflow: scroll;
+}
+
+#extra {
+    width: 15em;
+    height: 15em;
+    background-color: teal;
+    padding-bottom: 1em;
+    margin-bottom: 10px;
+}
+
+div, #mybutton {
+    width: 15em;
+    height: 15em;
+    background-color: teal;
+    padding-bottom: 1em;
+    margin-bottom: 10px;
+}
+
+.highlight:hover{
+   color:red;
+}
+
